@@ -22,6 +22,9 @@
            fetch="https://gitlab.com"
            revision="master" />
   
+  <!-- TheMuppets -->
+  
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" />
   
   <!-- Nethunter tools -->
   
