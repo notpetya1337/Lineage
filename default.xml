@@ -18,14 +18,14 @@
            sync-c="true"
            sync-j="4" />
 
-  <remote  name="aosp"
+  <remote  name="gitlab"
            fetch="https://gitlab.com"
            revision="master" />
   
   
   <!-- Nethunter tools -->
   
-  <project path="kernel/google/coral/nh-scripts" name="kalilinux/nethunter/build-scripts/kali-nethunter-kernel" />
+  <project path="kernel/google/coral/nh-scripts" name="kalilinux/nethunter/build-scripts/kali-nethunter-kernel" remote="gitlab" />
   
   <!-- AOSP Projects -->
 
