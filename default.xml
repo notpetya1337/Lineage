@@ -18,6 +18,15 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="aosp"
+           fetch="https://gitlab.com"
+           revision="master" />
+  
+  
+  <!-- Nethunter tools -->
+  
+  <project path="kernel/google/coral/nh-scripts" name="kalilinux/nethunter/build-scripts/kali-nethunter-kernel" />
+  
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
